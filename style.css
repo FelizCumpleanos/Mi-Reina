@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+#wishText {
+  color: #30D5C8;
+}
 html {
     box-sizing: border-box;
 }
@@ -7,6 +10,9 @@ body {
     margin: 0;
     background-color: rgb(105, 80, 107);
     font-family: 'Ubuntu', sans-serif;
+}
+h1 {
+  color: white;
 }
 
 img {
@@ -42,7 +48,7 @@ img.center {
 .animate__animated.animate__bounceIn {
     --animate-delay: 4.2s;
 }
- 
+
 .invisible {
     opacity: 0;
 }
@@ -68,7 +74,7 @@ img.center {
     right: 0;
     top: 20vh;
 }
-  
+
 .one {
     font-size: 2.5rem;
 }
@@ -76,12 +82,16 @@ img.center {
     font-size: 1.5rem;
     font-weight: lighter;
 }
-  
+
 .three {
     font-size: 2.5rem;
     padding: 3px 5px;
     border-radius: 3px;
     display: inline-block;
+    color: white;
+}
+span.heart {
+  color: #30D5C8;
 }
 
 #balloon-container {
@@ -93,14 +103,14 @@ img.center {
     flex-wrap: wrap;
     overflow: hidden;
   }
-  
+
   .balloon {
     height: 125px;
     width: 105px;
     border-radius: 75% 75% 70% 70%;
     position: relative;
   }
-  
+
   .balloon:before {
     content: "";
     height: 75px;
@@ -114,7 +124,7 @@ img.center {
     right: 0;
     margin: auto;
   }
-  
+
   .balloon:after {
       content: "▲";
       text-align: center;
@@ -126,7 +136,7 @@ img.center {
       right: 0;
       margin: auto;
   }
-  
+
   @keyframes float {
     from {transform: translateY(100vh);
     opacity: 1;}
@@ -148,7 +158,7 @@ img.center {
     margin: 0;
     text-transform: uppercase;
   }
-  
+
 h5 {
     font-weight: lighter;
     font-size: 1.8rem;
@@ -180,7 +190,7 @@ h5 {
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 }
 
@@ -200,7 +210,7 @@ h5 {
     .wish-hbd {
         font-size: 1.8rem;
       }
-    
+
     h5 {
         font-size: 1.3rem;
       }
